@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .link {
+        @apply inline-block focus-visible:outline focus-visible:outline-2 focus-visible:outline-inherit hover:cursor-pointer;
+    }
+
+    .nav-link {
+        @apply after:relative after:block after:w-0 after:bg-black after:h-[1px] after:transition-[width] after:ease-in-out after:duration-200 hover:after:w-full inline-block focus-visible:outline-black
+    }
+}
