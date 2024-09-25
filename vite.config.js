@@ -5,8 +5,4 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   publicDir: "./src/assets",
-  build: {
-    outDir: "./docs",
-    assetsDir: "fe-workshop-signmore"
-  }
 });
